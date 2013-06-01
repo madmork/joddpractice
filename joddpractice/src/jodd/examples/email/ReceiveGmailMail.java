@@ -16,7 +16,7 @@ import java.util.LinkedList;
 public class ReceiveGmailMail {
 
 	public static void main(String[] args) {
-		Pop3Server popServer = new Pop3SslServer("pop.gmail.com", "igor.spasic", "....");
+		Pop3Server popServer = new Pop3SslServer("pop.gmail.com", "remadagain", "");
 		ReceiveMailSession session = popServer.createSession();
 		session.open();
 		System.out.println(session.getMessageCount());

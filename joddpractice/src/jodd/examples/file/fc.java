@@ -27,7 +27,7 @@ public class fc {
 		cs.setIgnoreException(true);
 
 		// define scan path
-		cs.scan("foo.jar", "d:\\Projects\\java\\apps\\jarminator\\out");
+		cs.scan("foo.jar", "E:\\src\\eclipse_java\\s1java\\bin\\cn\\s1java\\ch1");
 
 		System.out.println("end");
 	}

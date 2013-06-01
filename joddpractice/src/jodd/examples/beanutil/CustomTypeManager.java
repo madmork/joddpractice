@@ -31,7 +31,17 @@ public class CustomTypeManager {
 		
 		Bean bean = new Bean();
 		beanUtilBean.setProperty(bean, "value", "-12");
-
+		
 		System.out.println(bean.value);		// 73
+		
+		typeConverterManagerBean.register(Integer.class, new TypeConverter<Integer>() {
+			public Integer convert(Object value) {
+				return Integer.valueOf(value.toString());
+			}
+		});
+		
+		beanUtilBean.setProperty(bean, "value", "-12");
+
+		System.out.println(bean.value);		// -12
 	}
 }
