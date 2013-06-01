@@ -2,5 +2,27 @@
 <classpath>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6"/>
+	<classpathentry kind="lib" path="E:/jop/jodd/jodd-3.4.4/jodd-3.4.4.jar"/>
+	<classpathentry kind="lib" path="Z:/jar/mail/dsn.jar"/>
+	<classpathentry kind="lib" path="Z:/jar/mail/gimap.jar"/>
+	<classpathentry kind="lib" path="Z:/jar/mail/imap.jar"/>
+	<classpathentry kind="lib" path="Z:/jar/mail/mail.jar"/>
+	<classpathentry kind="lib" path="Z:/jar/mail/mailapi.jar"/>
+	<classpathentry kind="lib" path="Z:/jar/mail/pop3.jar"/>
+	<classpathentry kind="lib" path="Z:/jar/mail/smtp.jar"/>
+	<classpathentry kind="lib" path="Z:/jar/slf4j-1.7.5/slf4j-1.7.5/jcl-over-slf4j-1.7.5.jar"/>
+	<classpathentry kind="lib" path="Z:/jar/slf4j-1.7.5/slf4j-1.7.5/jul-to-slf4j-1.7.5.jar"/>
+	<classpathentry kind="lib" path="Z:/jar/slf4j-1.7.5/slf4j-1.7.5/log4j-over-slf4j-1.7.5.jar"/>
+	<classpathentry kind="lib" path="Z:/jar/slf4j-1.7.5/slf4j-1.7.5/slf4j-api-1.7.5.jar"/>
+	<classpathentry kind="lib" path="Z:/jar/slf4j-1.7.5/slf4j-1.7.5/slf4j-ext-1.7.5.jar"/>
+	<classpathentry kind="lib" path="Z:/jar/slf4j-1.7.5/slf4j-1.7.5/slf4j-jcl-1.7.5.jar"/>
+	<classpathentry kind="lib" path="Z:/jar/slf4j-1.7.5/slf4j-1.7.5/slf4j-jdk14-1.7.5.jar"/>
+	<classpathentry kind="lib" path="Z:/jar/slf4j-1.7.5/slf4j-1.7.5/slf4j-log4j12-1.7.5.jar"/>
+	<classpathentry kind="lib" path="Z:/jar/slf4j-1.7.5/slf4j-1.7.5/slf4j-migrator-1.7.5.jar"/>
+	<classpathentry kind="lib" path="Z:/jar/slf4j-1.7.5/slf4j-1.7.5/slf4j-nop-1.7.5.jar"/>
+	<classpathentry kind="lib" path="Z:/jar/slf4j-1.7.5/slf4j-1.7.5/slf4j-simple-1.7.5.jar"/>
+	<classpathentry kind="lib" path="Z:/jar/logback-1.0.13/logback-1.0.13/logback-access-1.0.13.jar"/>
+	<classpathentry kind="lib" path="Z:/jar/logback-1.0.13/logback-1.0.13/logback-classic-1.0.13.jar"/>
+	<classpathentry kind="lib" path="Z:/jar/logback-1.0.13/logback-1.0.13/logback-core-1.0.13.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
